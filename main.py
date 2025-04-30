@@ -1,7 +1,8 @@
-import os
 import sys
+import os
 sys.path.append('./src/models')
 from typing import Optional
+
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QImage, QPixmap, QPalette, QColor
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout,
